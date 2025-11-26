@@ -1,3 +1,30 @@
-# discrete-layered ðŸ§ âž¡ï¸ðŸš€
-åˆ†å±‚é€’è¿›å¾æœç¦»æ•£æ•°å­¦ï¼šæ¦‚å¿µéªŒè¯ â†’ å¾®åž‹é¡¹ç›® â†’ ç»¼åˆå®žæˆ˜
 
+# ÀëÉ¢ÊýÑ§·Ö²ãÑ§Ï°ÏîÄ¿ README
+
+```markdown
+# ? ÀëÉ¢ÊýÑ§·Ö²ãÑ§Ï°ÏîÄ¿
+
+## ? ÏîÄ¿¸ÅÊö
+
+Í¨¹ý´úÂëÊµ¼ùÉîÈëÀí½âÀëÉ¢ÊýÑ§¸ÅÄî£¬´Ó»ù´¡Âß¼­µ½¸´ÔÓËã·¨£¬½¨Á¢¼ÆËã»ú¿ÆÑ§µÄÊýÑ§»ù´¡¡£
+
+## ?? ÏîÄ¿¼Ü¹¹
+
+| ²ã¼¶ | ²Ö¿â | ÃèÊö | ×´Ì¬ |
+|------|------|------|------|
+| ? **Ö÷Ò³** | **[discrete-layered-home](https://github.com/ÄãµÄÓÃ»§Ãû/discrete-layered-home)** | ÏîÄ¿×ÜÀÀ & µ¼º½ÖÐÐÄ | ![Active](https://img.shields.io/badge/×´Ì¬-»îÔ¾-brightgreen) |
+| ? **L1 ¸ÅÄîÑéÖ¤** | **[discrete-layered-l1-concepts](https://github.com/ÄãµÄÓÃ»§Ãû/discrete-layered-l1-concepts)** | ÃüÌâÂß¼­¡¢¼¯ºÏÂÛ¡¢Í¼ÂÛ»ù´¡ 30+ ´úÂëÊµÏÖ | ![Progress](https://img.shields.io/badge/½ø¶È-½øÐÐÖÐ-orange) |
+| ? **L2 Î¢ÐÍÏîÄ¿** | **[discrete-layered-l2-mini](https://github.com/ÄãµÄÓÃ»§Ãû/discrete-layered-l2-mini)** | Âß¼­ÍÆÀíÆ÷ + Éç½»ÍøÂç·ÖÎö(BFS) | ![Planning](https://img.shields.io/badge/×´Ì¬-¹æ»®ÖÐ-lightgrey) |
+| ? **L3 ×ÛºÏÏîÄ¿** | **[discrete-layered-l3-maze](https://github.com/ÄãµÄÓÃ»§Ãû/discrete-layered-l3-maze)** | ÃÔ¹¬Éú³É(Kruskal+Union-Find) + Â·¾¶Çó½â(BFS/A*) | ![Planning](https://img.shields.io/badge/×´Ì¬-¹æ»®ÖÐ-lightgrey) |
+| ? **ÎÄµµÖÐÐÄ** | **[discrete-layered-docs](https://github.com/ÄãµÄÓÃ»§Ãû/discrete-layered-docs)** | Ñ§Ï°±Ê¼Ç¡¢UML¡¢Ëã·¨·ÖÎö(GitHub Pages) | ![Docs](https://img.shields.io/badge/ÀàÐÍ-ÎÄµµ-blue) |
+
+## ?? Ñ§Ï°Â·Ïß
+
+```mermaid
+graph TD
+    A[? Ö÷Ò³] --> B[? L1 ¸ÅÄîÑéÖ¤]
+    A --> C[? ÎÄµµÖÐÐÄ]
+    B --> D[? L2 Î¢ÐÍÏîÄ¿]
+    C --> D
+    D --> E[? L3 ×ÛºÏÏîÄ¿]
+    E --> F[? ÀëÉ¢ÊýÑ§¾«Í¨]
