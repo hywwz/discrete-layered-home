@@ -1,0 +1,12 @@
+[submodule "discrete-layered-L1-concepts"]
+	path = discrete-layered-L1-concepts
+	url = https://github.com/hywwz/discrete-layered-L1-concepts.git
+[submodule "discrete-layered-L3-maze"]
+	path = discrete-layered-L3-maze
+	url = https://github.com/hywwz/discrete-layered-L3-maze.git
+[submodule "discrete-layered-docs"]
+	path = discrete-layered-docs
+	url = https://github.com/hywwz/discrete-layered-docs.git
+[submodule "discrete-layered-L2-mini"]
+	path = discrete-layered-L2-mini
+	url = https://github.com/hywwz/discrete-layered-L2-mini.git
